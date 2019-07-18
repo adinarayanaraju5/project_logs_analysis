@@ -2,10 +2,10 @@
 
 
 ## Overview
-The aim of the project is to create a reporting tool using python which can fetch reports from a large database of news website. The news database is a PostgreSQL database with schema containing three tables:articles, authors and log. By using this three tables we should get the relational reports which tells about popular three articles of all time, popular article authors and days with more than 1% of requests which lead to errors.
+The aim of the project is to create a reporting tool using python which can fetch reports from a large database of news website. The news database is a PostgreSQL database with schema containing three tables: articles, authors and log. By using this three tables we should get the relational reports which tells about popular three articles of all time, popular article authors and days with more than 1% of requests which lead to errors.
 
 ## Prerequisites
-* [Python 3](https://www.python.org/downloads/)-To connect to PostgreSQl database and send queries.
+* [Python](https://www.python.org/downloads/)-To connect to PostgreSQl database and send queries.
 * [Vagrant](https://www.vagrantup.com/downloads.html) - A virtual environment builder and manager.
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads) - An open source virtualiztion product.
 * [Git](https://git-scm.com/downloads) - An open source version control system.
@@ -22,37 +22,37 @@ Download and clone from github [FSWDN program virtual machine](https://github.co
 #Clone the git repository into a directory using a bash terminal
 git clone https://github.com/adinarayanaraju5/project_logs_analysis.git
 
-#Once the project has been setup, navigate into the project directory with Vagrantfile
+#Once the project has been setup, navigate into the project directory with Vagrant file
 cd /project_logs_analysis
 
-#Start the virtual machine
+#To Start the virtual machine
 vagrant up
 
-#Connect to the virtual machine
+#Connection to the virtual machine
 vagrant ssh
 
-#Navigate to the folder where the guest/host files are shared
+#Navigate to the folder where the host and guest files are shared
 cd /vagrant
 
-#Apply SQL to Postgres to create news database
+#Apply PostgreSQL to create news database
 psql -d news -f newsdata.sql
 ```
 ## Running the project
 ```
-#Once the project has been setup, navigate into the project directory on your home computer
+#Once the project has been setup, navigate into the project directory on your pc
 cd /project_logs_analysis
 
-#Then, run the following command to ssh into the vagrant box
+#Then, run the following command
 vagrant ssh
 
 #Navigate to the folder shared between the host and virtual machine
 cd /vagrant
 
-#Run projectlog.py and log analysis output will be printed on the terminal
+#Run projectlog.py
 python projectlog.py
 ```
 
-## Output of the project
+## Output of the project -> Logs Analysis
 ```
 1. What are the most popular three articles of all time?
         Candidate is jerk, alleges rival - 338647 views
@@ -68,4 +68,4 @@ python projectlog.py
 ```
 ## Resource Links
 * [Udacity full stack web development nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004)
-* [source code repo](https://github.com/adinarayanaraju5/project_logs_analysis.git)
+* [host git repository](https://github.com/adinarayanaraju5/project_logs_analysis.git)
