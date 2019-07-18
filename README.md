@@ -6,15 +6,17 @@ The aim of the project is to create a reporting tool using python which can fetc
 
 ## Prerequisites
 * [Python 3](https://www.python.org/downloads/)-To connect to PostgreSQl database and send queries.
-* [Vagrant](https://www.vagrantup.com/downloads.html) - A virtual environment builder and manager
+* [Vagrant](https://www.vagrantup.com/downloads.html) - A virtual environment builder and manager.
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads) - An open source virtualiztion product.
-* [Git](https://git-scm.com/downloads) - An open source version control system
+* [Git](https://git-scm.com/downloads) - An open source version control system.
 
 ## Getting news data
 [newsdata](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) this `newsdata.sql` file should be placed in the vagrant directory,which will be shared with your virtual machine.
 
 ## Setting up the project
 > In order to run this project logs analysis, you must have Vagrant and VirtualBox set up on your pc(To install, Click on each tool in prerequisites).
+
+Download and clone from github [FSWDN program virtual machine](https://github.com/udacity/fullstack-nanodegree-vm) for instructions and installation process of virtual machine.  
 
 ```
 #Clone the git repository into a directory using a bash terminal
