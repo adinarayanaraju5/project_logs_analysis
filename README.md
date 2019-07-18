@@ -2,7 +2,7 @@
 
 
 ## Overview
-The aim of the project is to create a reporting tool using python which can fetch reports from a large database of news website. the database is a PostgreSQL database with schema containing three tables:articles, authors and log. By using this three tables we should get the relational reports which tells about popular three articles of all time, popular article authors and days with more than 1% of requests which lead to errors.
+The aim of the project is to create a reporting tool using python which can fetch reports from a large database of news website. The news database is a PostgreSQL database with schema containing three tables:articles, authors and log. By using this three tables we should get the relational reports which tells about popular three articles of all time, popular article authors and days with more than 1% of requests which lead to errors.
 
 ## Prerequisites
 * [Python 3](https://www.python.org/downloads/)-To connect to PostgreSQl database and send queries.
@@ -11,7 +11,7 @@ The aim of the project is to create a reporting tool using python which can fetc
 * [Git](https://git-scm.com/downloads) - An open source version control system.
 
 ## Getting news data
-[newsdata](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) this `newsdata.sql` file should be placed in the vagrant directory,which will be shared with your virtual machine.
+[newsdata](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)->This `newsdata.sql` file should be placed in the vagrant directory,which will be shared with your virtual machine.
 
 ## Setting up the project
 > In order to run this project logs analysis, you must have Vagrant and VirtualBox set up on your pc(To install, Click on each tool in prerequisites).
