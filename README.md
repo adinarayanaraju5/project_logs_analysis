@@ -11,7 +11,7 @@ The aim of the project is to create a reporting tool using python which can fetc
 * [Git](https://git-scm.com/downloads) - An open source version control system
 
 ## Getting news data
-[newsdata](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)This `newsdata.sql` file should be placed in the vagrant directory,which will be shared with your virtual machine.
+[newsdata](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) this `newsdata.sql` file should be placed in the vagrant directory,which will be shared with your virtual machine.
 
 ## Setting up the project
 > In order to run this project logs analysis, you must have Vagrant and VirtualBox set up on your pc(To install, Click on each tool in prerequisites).
@@ -20,7 +20,7 @@ The aim of the project is to create a reporting tool using python which can fetc
 #Clone the git repository into a directory using a bash terminal
 git clone https://github.com/adinarayanaraju5/project_logs_analysis.git
 
-#Once the project has been setup, navigate into the project directory with `Vagrantfile`
+#Once the project has been setup, navigate into the project directory with Vagrantfile
 cd /project_logs_analysis
 
 #Start the virtual machine
@@ -46,7 +46,7 @@ vagrant ssh
 #Navigate to the folder shared between the host and virtual machine
 cd /vagrant
 
-#Run `projectlog.py` and log analysis output will be printed on the terminal
+#Run projectlog.py and log analysis output will be printed on the terminal
 python projectlog.py
 ```
 
