@@ -66,6 +66,9 @@ python projectlog.py
 3. On which days did more than 1% of requests lead to errors?
         JUL 17, 2016 - 2.3% error
 ```
+## Author
+* Balla Adi Narayana Raju - Log Project - [Black_kaiser](https://github.com/adinarayanaraju5)
+
 ## Resource Links
 * [Udacity full stack web development nanodegree](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004)
 * [host git repository](https://github.com/adinarayanaraju5/project_logs_analysis.git)

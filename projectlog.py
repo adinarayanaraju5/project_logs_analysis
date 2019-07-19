@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import psycopg2
 import re
@@ -16,7 +16,7 @@ def query_database(query):
         fetch = move.fetchall()
         db.close()
         return fetch
-    except BaseException:
+    except psycopg2.Error:
         print 'Error in connecting to the postgreSQL database news'
 
 
